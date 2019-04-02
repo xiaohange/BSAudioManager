@@ -60,7 +60,7 @@
 //    }
 //
 //    return [[[LDFileHelper shareInstance] getMusicCacheDir] stringByAppendingPathComponent:_fileName];
-    return @"";
+    return nil;//此处暂时注释掉，如果需要自定义缓存路径或者指定音频后缀文件需要在此处处理
 }
 
 - (NSString *)getMD5EncryptString:(NSString*)str
