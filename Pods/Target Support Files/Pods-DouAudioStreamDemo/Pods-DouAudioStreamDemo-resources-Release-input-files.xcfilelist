@@ -1,0 +1,15 @@
+${PODS_ROOT}/Target Support Files/Pods-DouAudioStreamDemo/Pods-DouAudioStreamDemo-resources.sh
+${PODS_ROOT}/JQTipView/JQTipView/HIDialogManager.h
+${PODS_ROOT}/JQTipView/JQTipView/HIDialogManager.m
+${PODS_ROOT}/JQTipView/JQTipView/HIModelWaitingBgView.h
+${PODS_ROOT}/JQTipView/JQTipView/HIModelWaitingBgView.m
+${PODS_ROOT}/JQTipView/JQTipView/HIUIViewHelper.h
+${PODS_ROOT}/JQTipView/JQTipView/HIUIViewHelper.m
+${PODS_ROOT}/JQTipView/JQTipView/JQTipView/JQTipView.h
+${PODS_ROOT}/JQTipView/JQTipView/JQTipView/JQTipView.m
+${PODS_ROOT}/JQTipView/JQTipView/JQTipViewHeader.h
+${PODS_ROOT}/JQTipView/JQTipView/NSString+HIExtern.h
+${PODS_ROOT}/JQTipView/JQTipView/NSString+HIExtern.m
+${PODS_ROOT}/JQTipView/JQTipView/UIView+HIExtern.h
+${PODS_ROOT}/JQTipView/JQTipView/UIView+HIExtern.m
+${PODS_ROOT}/JQTipView/JQTipView/JQTipView

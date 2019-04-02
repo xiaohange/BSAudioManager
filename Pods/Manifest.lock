@@ -1,0 +1,48 @@
+PODS:
+  - AFNetworking (3.2.1):
+    - AFNetworking/NSURLSession (= 3.2.1)
+    - AFNetworking/Reachability (= 3.2.1)
+    - AFNetworking/Security (= 3.2.1)
+    - AFNetworking/Serialization (= 3.2.1)
+    - AFNetworking/UIKit (= 3.2.1)
+  - AFNetworking/NSURLSession (3.2.1):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.2.1)
+  - AFNetworking/Security (3.2.1)
+  - AFNetworking/Serialization (3.2.1)
+  - AFNetworking/UIKit (3.2.1):
+    - AFNetworking/NSURLSession
+  - JQPhoneNetwork (1.0.8):
+    - JQPhoneNetwork/NetworkListener (= 1.0.8)
+    - JQPhoneNetwork/PhoneHelper (= 1.0.8)
+  - JQPhoneNetwork/NetworkListener (1.0.8):
+    - AFNetworking
+    - JQPhoneNetwork/PhoneHelper
+  - JQPhoneNetwork/PhoneHelper (1.0.8)
+  - JQTipView (1.0.6):
+    - JQTipView/JQTipView (= 1.0.6)
+    - JQTipView/Tools (= 1.0.6)
+  - JQTipView/JQTipView (1.0.6):
+    - JQTipView/Tools
+  - JQTipView/Tools (1.0.6)
+
+DEPENDENCIES:
+  - JQPhoneNetwork (~> 1.0.8)
+  - JQTipView (~> 1.0.6)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - AFNetworking
+    - JQPhoneNetwork
+    - JQTipView
+
+SPEC CHECKSUMS:
+  AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
+  JQPhoneNetwork: 77248904522b5fc1400ddf30926c39bee5cd7726
+  JQTipView: 878a2e198766be67a628ba4c0aff4cdd637725f7
+
+PODFILE CHECKSUM: 575ce7ecb407beed10bd00d2d85fb964c3dc6bd7
+
+COCOAPODS: 1.7.0.beta.3

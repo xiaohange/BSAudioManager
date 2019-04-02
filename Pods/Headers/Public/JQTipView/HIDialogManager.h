@@ -1,0 +1,1 @@
+../../../JQTipView/JQTipView/Tools/HIDialogManager.h
