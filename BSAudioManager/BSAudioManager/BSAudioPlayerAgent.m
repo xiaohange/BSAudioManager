@@ -12,7 +12,7 @@
 #import "DOUAudioEventLoop.h"
 #import "JQNetworkListener.h"
 #import <JQTipView/JQTipViewHeader.h>
-#import <JQTipViewHeader.h>
+
 
 #define kDefaultStatusKey       @"status"
 #define kDefaultDurationKey     @"duration"

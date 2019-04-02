@@ -8,7 +8,7 @@
 
 #import "BSAudioPlayerHelper.h"
 #import "JQNetworkListener.h"
-#import <JQTipViewHeader.h>
+#import <JQTipView/JQTipViewHeader.h>
 #import "BSAudioPlayerObserver.h"
 
 #define AutoPlayErrorCountLimit 4
