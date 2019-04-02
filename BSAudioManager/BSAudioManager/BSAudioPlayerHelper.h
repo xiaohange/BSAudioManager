@@ -56,7 +56,7 @@
 + (BSAudioProgressData *)currentAudioProgressData;
 + (BSAudioPlayerStatus)audioPlayStatus;
 + (BSAudioPlayerHelper *)currentPlayerHelper;
-+ (void)setAudioCacheDirectory:(NSString *)directory;
+//+ (void)setAudioCacheDirectory:(NSString *)directory;
 
 @end
 

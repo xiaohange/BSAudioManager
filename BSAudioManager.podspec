@@ -11,16 +11,17 @@ s.source       = { :git => "https://github.com/xiaohange/BSAudioManager.git", :t
 s.social_media_url = 'https://weibo.com/hjq995'
 s.requires_arc = true
 s.source_files = 'BSAudioManager/BSAudioManager.h'
-s.dependency "JQPhoneNetwork"
 
 s.subspec 'DOUAudioStream' do |ph|
 ph.source_files = 'BSAudioManager/DOUAudioStream/**/*'
+ph.dependency "JQPhoneNetwork"
 end
 
 
 s.subspec 'BSAudioManager' do |ct|
 ct.dependency 'BSAudioManager/DOUAudioStream'
 ct.dependency "JQTipView"
+ct.dependency "JQPhoneNetwork"
 ct.source_files = 'BSAudioManager/BSAudioManager/**/*'
 end
 
