@@ -19,11 +19,11 @@
         NSString *cachePath = [self cachePath];
         BOOL isDirectory = NO;
         BOOL isAudioCacheExist = [[NSFileManager defaultManager] fileExistsAtPath:cachePath isDirectory:&isDirectory];
-//        if (isAudioCacheExist && !isDirectory) {
-//            _audioURL = [NSURL fileURLWithPath:cachePath];
-//        } else {
+        if (isAudioCacheExist && !isDirectory) {
+            _audioURL = [NSURL fileURLWithPath:cachePath];
+        } else {
             _audioURL = [NSURL URLWithString:item.play_url];
-//        }
+        }
     }
     return self;
 }

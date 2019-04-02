@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
 s.name         = "BSAudioManager"
-s.version      = "1.0.0"
+s.version      = "1.0.1"
 s.summary      = "豆瓣播放器二次封装."
 s.homepage     = "https://github.com/xiaohange/BSAudioManager"
 s.license      = { :type => "MIT", :file => "LICENSE" }
