@@ -7,38 +7,38 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3C13B43A225301790035471F /* DOUAudioFileProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C13B3F3225301780035471F /* DOUAudioFileProvider.m */; };
-		3C13B43B225301790035471F /* DOUAudioStreamer+Options.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C13B3F7225301780035471F /* DOUAudioStreamer+Options.m */; };
-		3C13B43C225301790035471F /* DOUAudioAnalyzer.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C13B3FA225301780035471F /* DOUAudioAnalyzer.m */; };
-		3C13B43D225301790035471F /* DOUAudioRenderer.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C13B3FE225301780035471F /* DOUAudioRenderer.m */; };
-		3C13B43E225301790035471F /* DOUAudioAnalyzer+Default.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C13B3FF225301780035471F /* DOUAudioAnalyzer+Default.m */; };
-		3C13B43F225301790035471F /* NSData+DOUMappedFile.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C13B401225301780035471F /* NSData+DOUMappedFile.m */; };
-		3C13B440225301790035471F /* DOUAudioFilePreprocessor.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C13B403225301780035471F /* DOUAudioFilePreprocessor.m */; };
-		3C13B441225301790035471F /* DOUAudioVisualizer.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C13B405225301780035471F /* DOUAudioVisualizer.m */; };
-		3C13B442225301790035471F /* DOUEAGLView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C13B407225301780035471F /* DOUEAGLView.m */; };
-		3C13B443225301790035471F /* DOUAudioLPCM.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C13B409225301780035471F /* DOUAudioLPCM.m */; };
-		3C13B444225301790035471F /* DOUAudioStreamer.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C13B40B225301780035471F /* DOUAudioStreamer.m */; };
-		3C13B445225301790035471F /* DOUAudioDecoder.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C13B40C225301780035471F /* DOUAudioDecoder.m */; };
-		3C13B446225301790035471F /* DOUSimpleHTTPRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C13B40D225301780035471F /* DOUSimpleHTTPRequest.m */; };
-		3C13B447225301790035471F /* DOUEAGL1View.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C13B40F225301780035471F /* DOUEAGL1View.m */; };
-		3C13B448225301790035471F /* DOUAudioPlaybackItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C13B411225301780035471F /* DOUAudioPlaybackItem.m */; };
-		3C13B449225301790035471F /* DOUAudioEventLoop.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C13B413225301780035471F /* DOUAudioEventLoop.m */; };
-		3C13B44A225301790035471F /* DOUAudioSpatialAnalyzer.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C13B414225301780035471F /* DOUAudioSpatialAnalyzer.m */; };
-		3C13B44B225301790035471F /* DOUAudioFrequencyAnalyzer.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C13B416225301780035471F /* DOUAudioFrequencyAnalyzer.m */; };
-		3C13B44C225301790035471F /* DOUMPMediaLibraryAssetLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C13B419225301780035471F /* DOUMPMediaLibraryAssetLoader.m */; };
-		3C13B44D225301790035471F /* BSAudioPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C13B421225301780035471F /* BSAudioPlayer.m */; };
-		3C13B44E225301790035471F /* BSAudioPlayModelManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C13B422225301780035471F /* BSAudioPlayModelManager.m */; };
-		3C13B44F225301790035471F /* NSError+BSAudioPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C13B423225301780035471F /* NSError+BSAudioPlayer.m */; };
-		3C13B450225301790035471F /* BSCircleAudioPlayModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C13B424225301780035471F /* BSCircleAudioPlayModel.m */; };
-		3C13B451225301790035471F /* BSMusicModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C13B426225301780035471F /* BSMusicModel.m */; };
-		3C13B452225301790035471F /* BSAudioPlayModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C13B42B225301780035471F /* BSAudioPlayModel.m */; };
-		3C13B453225301790035471F /* BSAudioItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C13B42C225301780035471F /* BSAudioItem.m */; };
-		3C13B454225301790035471F /* BSAudioPlayerHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C13B42D225301780035471F /* BSAudioPlayerHelper.m */; };
-		3C13B455225301790035471F /* BSAudioPlayList.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C13B430225301780035471F /* BSAudioPlayList.m */; };
-		3C13B456225301790035471F /* BSOrderAudioPlayModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C13B431225301780035471F /* BSOrderAudioPlayModel.m */; };
-		3C13B457225301790035471F /* BSAudioPlayerAgent.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C13B433225301780035471F /* BSAudioPlayerAgent.m */; };
-		3C13B458225301790035471F /* BSAudioPlayerObserver.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C13B437225301780035471F /* BSAudioPlayerObserver.m */; };
-		3C13B459225301790035471F /* BSAudioProgressData.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C13B439225301780035471F /* BSAudioProgressData.m */; };
+		3C13B4A4225338340035471F /* DOUAudioFileProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C13B45E225338340035471F /* DOUAudioFileProvider.m */; };
+		3C13B4A5225338340035471F /* DOUAudioStreamer+Options.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C13B462225338340035471F /* DOUAudioStreamer+Options.m */; };
+		3C13B4A6225338340035471F /* DOUAudioAnalyzer.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C13B465225338340035471F /* DOUAudioAnalyzer.m */; };
+		3C13B4A7225338340035471F /* DOUAudioRenderer.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C13B469225338340035471F /* DOUAudioRenderer.m */; };
+		3C13B4A8225338340035471F /* DOUAudioAnalyzer+Default.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C13B46A225338340035471F /* DOUAudioAnalyzer+Default.m */; };
+		3C13B4A9225338340035471F /* NSData+DOUMappedFile.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C13B46C225338340035471F /* NSData+DOUMappedFile.m */; };
+		3C13B4AA225338340035471F /* DOUAudioFilePreprocessor.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C13B46E225338340035471F /* DOUAudioFilePreprocessor.m */; };
+		3C13B4AB225338340035471F /* DOUAudioVisualizer.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C13B470225338340035471F /* DOUAudioVisualizer.m */; };
+		3C13B4AC225338340035471F /* DOUEAGLView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C13B472225338340035471F /* DOUEAGLView.m */; };
+		3C13B4AD225338340035471F /* DOUAudioLPCM.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C13B474225338340035471F /* DOUAudioLPCM.m */; };
+		3C13B4AE225338340035471F /* DOUAudioStreamer.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C13B476225338340035471F /* DOUAudioStreamer.m */; };
+		3C13B4AF225338340035471F /* DOUAudioDecoder.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C13B477225338340035471F /* DOUAudioDecoder.m */; };
+		3C13B4B0225338340035471F /* DOUSimpleHTTPRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C13B478225338340035471F /* DOUSimpleHTTPRequest.m */; };
+		3C13B4B1225338340035471F /* DOUEAGL1View.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C13B47A225338340035471F /* DOUEAGL1View.m */; };
+		3C13B4B2225338340035471F /* DOUAudioPlaybackItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C13B47C225338340035471F /* DOUAudioPlaybackItem.m */; };
+		3C13B4B3225338340035471F /* DOUAudioEventLoop.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C13B47E225338340035471F /* DOUAudioEventLoop.m */; };
+		3C13B4B4225338340035471F /* DOUAudioSpatialAnalyzer.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C13B47F225338340035471F /* DOUAudioSpatialAnalyzer.m */; };
+		3C13B4B5225338340035471F /* DOUAudioFrequencyAnalyzer.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C13B481225338340035471F /* DOUAudioFrequencyAnalyzer.m */; };
+		3C13B4B6225338340035471F /* DOUMPMediaLibraryAssetLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C13B484225338340035471F /* DOUMPMediaLibraryAssetLoader.m */; };
+		3C13B4B7225338340035471F /* BSAudioPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C13B48B225338340035471F /* BSAudioPlayer.m */; };
+		3C13B4B8225338340035471F /* BSAudioPlayModelManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C13B48C225338340035471F /* BSAudioPlayModelManager.m */; };
+		3C13B4B9225338340035471F /* NSError+BSAudioPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C13B48D225338340035471F /* NSError+BSAudioPlayer.m */; };
+		3C13B4BA225338340035471F /* BSCircleAudioPlayModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C13B48E225338340035471F /* BSCircleAudioPlayModel.m */; };
+		3C13B4BB225338340035471F /* BSMusicModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C13B490225338340035471F /* BSMusicModel.m */; };
+		3C13B4BC225338340035471F /* BSAudioPlayModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C13B495225338340035471F /* BSAudioPlayModel.m */; };
+		3C13B4BD225338340035471F /* BSAudioItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C13B496225338340035471F /* BSAudioItem.m */; };
+		3C13B4BE225338340035471F /* BSAudioPlayerHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C13B497225338340035471F /* BSAudioPlayerHelper.m */; };
+		3C13B4BF225338340035471F /* BSAudioPlayList.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C13B49A225338340035471F /* BSAudioPlayList.m */; };
+		3C13B4C0225338340035471F /* BSOrderAudioPlayModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C13B49B225338340035471F /* BSOrderAudioPlayModel.m */; };
+		3C13B4C1225338340035471F /* BSAudioPlayerAgent.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C13B49D225338340035471F /* BSAudioPlayerAgent.m */; };
+		3C13B4C2225338340035471F /* BSAudioPlayerObserver.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C13B4A1225338340035471F /* BSAudioPlayerObserver.m */; };
+		3C13B4C3225338340035471F /* BSAudioProgressData.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C13B4A3225338340035471F /* BSAudioProgressData.m */; };
 		3CFCC44F224F097D00CA02EB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CFCC44E224F097D00CA02EB /* AppDelegate.m */; };
 		3CFCC452224F097D00CA02EB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CFCC451224F097D00CA02EB /* ViewController.m */; };
 		3CFCC455224F097D00CA02EB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3CFCC453224F097D00CA02EB /* Main.storyboard */; };
@@ -69,77 +69,77 @@
 
 /* Begin PBXFileReference section */
 		0AC1C0CBFA4469B93715014B /* libPods-DouAudioStreamDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DouAudioStreamDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		3C13B3F2225301780035471F /* DOUEAGL1View.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DOUEAGL1View.h; sourceTree = "<group>"; };
-		3C13B3F3225301780035471F /* DOUAudioFileProvider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DOUAudioFileProvider.m; sourceTree = "<group>"; };
-		3C13B3F4225301780035471F /* DOUAudioStreamer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DOUAudioStreamer.h; sourceTree = "<group>"; };
-		3C13B3F5225301780035471F /* DOUSimpleHTTPRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DOUSimpleHTTPRequest.h; sourceTree = "<group>"; };
-		3C13B3F6225301780035471F /* DOUAudioDecoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DOUAudioDecoder.h; sourceTree = "<group>"; };
-		3C13B3F7225301780035471F /* DOUAudioStreamer+Options.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "DOUAudioStreamer+Options.m"; sourceTree = "<group>"; };
-		3C13B3F8225301780035471F /* DOUAudioLPCM.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DOUAudioLPCM.h; sourceTree = "<group>"; };
-		3C13B3F9225301780035471F /* DOUEAGLView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DOUEAGLView.h; sourceTree = "<group>"; };
-		3C13B3FA225301780035471F /* DOUAudioAnalyzer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DOUAudioAnalyzer.m; sourceTree = "<group>"; };
-		3C13B3FB225301780035471F /* DOUAudioSpatialAnalyzer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DOUAudioSpatialAnalyzer.h; sourceTree = "<group>"; };
-		3C13B3FC225301780035471F /* DOUAudioEventLoop.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DOUAudioEventLoop.h; sourceTree = "<group>"; };
-		3C13B3FD225301780035471F /* DOUAudioPlaybackItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DOUAudioPlaybackItem.h; sourceTree = "<group>"; };
-		3C13B3FE225301780035471F /* DOUAudioRenderer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DOUAudioRenderer.m; sourceTree = "<group>"; };
-		3C13B3FF225301780035471F /* DOUAudioAnalyzer+Default.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "DOUAudioAnalyzer+Default.m"; sourceTree = "<group>"; };
-		3C13B400225301780035471F /* DOUAudioFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DOUAudioFile.h; sourceTree = "<group>"; };
-		3C13B401225301780035471F /* NSData+DOUMappedFile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+DOUMappedFile.m"; sourceTree = "<group>"; };
-		3C13B402225301780035471F /* DOUMPMediaLibraryAssetLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DOUMPMediaLibraryAssetLoader.h; sourceTree = "<group>"; };
-		3C13B403225301780035471F /* DOUAudioFilePreprocessor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DOUAudioFilePreprocessor.m; sourceTree = "<group>"; };
-		3C13B404225301780035471F /* DOUAudioAnalyzer_Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DOUAudioAnalyzer_Private.h; sourceTree = "<group>"; };
-		3C13B405225301780035471F /* DOUAudioVisualizer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DOUAudioVisualizer.m; sourceTree = "<group>"; };
-		3C13B406225301780035471F /* DOUAudioFrequencyAnalyzer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DOUAudioFrequencyAnalyzer.h; sourceTree = "<group>"; };
-		3C13B407225301780035471F /* DOUEAGLView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DOUEAGLView.m; sourceTree = "<group>"; };
-		3C13B408225301780035471F /* DOUAudioAnalyzer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DOUAudioAnalyzer.h; sourceTree = "<group>"; };
-		3C13B409225301780035471F /* DOUAudioLPCM.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DOUAudioLPCM.m; sourceTree = "<group>"; };
-		3C13B40A225301780035471F /* DOUAudioStreamer+Options.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "DOUAudioStreamer+Options.h"; sourceTree = "<group>"; };
-		3C13B40B225301780035471F /* DOUAudioStreamer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DOUAudioStreamer.m; sourceTree = "<group>"; };
-		3C13B40C225301780035471F /* DOUAudioDecoder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DOUAudioDecoder.m; sourceTree = "<group>"; };
-		3C13B40D225301780035471F /* DOUSimpleHTTPRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DOUSimpleHTTPRequest.m; sourceTree = "<group>"; };
-		3C13B40E225301780035471F /* DOUAudioFileProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DOUAudioFileProvider.h; sourceTree = "<group>"; };
-		3C13B40F225301780035471F /* DOUEAGL1View.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DOUEAGL1View.m; sourceTree = "<group>"; };
-		3C13B410225301780035471F /* DOUAudioAnalyzer+Default.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "DOUAudioAnalyzer+Default.h"; sourceTree = "<group>"; };
-		3C13B411225301780035471F /* DOUAudioPlaybackItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DOUAudioPlaybackItem.m; sourceTree = "<group>"; };
-		3C13B412225301780035471F /* DOUAudioRenderer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DOUAudioRenderer.h; sourceTree = "<group>"; };
-		3C13B413225301780035471F /* DOUAudioEventLoop.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DOUAudioEventLoop.m; sourceTree = "<group>"; };
-		3C13B414225301780035471F /* DOUAudioSpatialAnalyzer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DOUAudioSpatialAnalyzer.m; sourceTree = "<group>"; };
-		3C13B415225301780035471F /* DOUAudioStreamer_Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DOUAudioStreamer_Private.h; sourceTree = "<group>"; };
-		3C13B416225301780035471F /* DOUAudioFrequencyAnalyzer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DOUAudioFrequencyAnalyzer.m; sourceTree = "<group>"; };
-		3C13B417225301780035471F /* DOUAudioVisualizer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DOUAudioVisualizer.h; sourceTree = "<group>"; };
-		3C13B418225301780035471F /* DOUAudioFilePreprocessor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DOUAudioFilePreprocessor.h; sourceTree = "<group>"; };
-		3C13B419225301780035471F /* DOUMPMediaLibraryAssetLoader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DOUMPMediaLibraryAssetLoader.m; sourceTree = "<group>"; };
-		3C13B41A225301780035471F /* NSData+DOUMappedFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+DOUMappedFile.h"; sourceTree = "<group>"; };
-		3C13B41B225301780035471F /* DOUAudioBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DOUAudioBase.h; sourceTree = "<group>"; };
-		3C13B41C225301780035471F /* BSAudioManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSAudioManager.h; sourceTree = "<group>"; };
-		3C13B41E225301780035471F /* BSAudioPlayerHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSAudioPlayerHelper.h; sourceTree = "<group>"; };
-		3C13B41F225301780035471F /* BSAudioItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSAudioItem.h; sourceTree = "<group>"; };
-		3C13B420225301780035471F /* BSAudioPlayList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSAudioPlayList.h; sourceTree = "<group>"; };
-		3C13B421225301780035471F /* BSAudioPlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSAudioPlayer.m; sourceTree = "<group>"; };
-		3C13B422225301780035471F /* BSAudioPlayModelManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSAudioPlayModelManager.m; sourceTree = "<group>"; };
-		3C13B423225301780035471F /* NSError+BSAudioPlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSError+BSAudioPlayer.m"; sourceTree = "<group>"; };
-		3C13B424225301780035471F /* BSCircleAudioPlayModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSCircleAudioPlayModel.m; sourceTree = "<group>"; };
-		3C13B425225301780035471F /* BSAudioPlayerAgent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSAudioPlayerAgent.h; sourceTree = "<group>"; };
-		3C13B426225301780035471F /* BSMusicModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSMusicModel.m; sourceTree = "<group>"; };
-		3C13B427225301780035471F /* BSOrderAudioPlayModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSOrderAudioPlayModel.h; sourceTree = "<group>"; };
-		3C13B428225301780035471F /* BSAudioProgressData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSAudioProgressData.h; sourceTree = "<group>"; };
-		3C13B429225301780035471F /* BSAudioPlayerDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSAudioPlayerDefines.h; sourceTree = "<group>"; };
-		3C13B42A225301780035471F /* BSAudioPlayerObserver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSAudioPlayerObserver.h; sourceTree = "<group>"; };
-		3C13B42B225301780035471F /* BSAudioPlayModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSAudioPlayModel.m; sourceTree = "<group>"; };
-		3C13B42C225301780035471F /* BSAudioItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSAudioItem.m; sourceTree = "<group>"; };
-		3C13B42D225301780035471F /* BSAudioPlayerHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSAudioPlayerHelper.m; sourceTree = "<group>"; };
-		3C13B42E225301780035471F /* BSAudioPlayModelManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSAudioPlayModelManager.h; sourceTree = "<group>"; };
-		3C13B42F225301780035471F /* BSAudioPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSAudioPlayer.h; sourceTree = "<group>"; };
-		3C13B430225301780035471F /* BSAudioPlayList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSAudioPlayList.m; sourceTree = "<group>"; };
-		3C13B431225301780035471F /* BSOrderAudioPlayModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSOrderAudioPlayModel.m; sourceTree = "<group>"; };
-		3C13B432225301780035471F /* BSMusicModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSMusicModel.h; sourceTree = "<group>"; };
-		3C13B433225301780035471F /* BSAudioPlayerAgent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSAudioPlayerAgent.m; sourceTree = "<group>"; };
-		3C13B434225301780035471F /* BSCircleAudioPlayModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSCircleAudioPlayModel.h; sourceTree = "<group>"; };
-		3C13B435225301780035471F /* NSError+BSAudioPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSError+BSAudioPlayer.h"; sourceTree = "<group>"; };
-		3C13B436225301780035471F /* BSAudioPlayModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSAudioPlayModel.h; sourceTree = "<group>"; };
-		3C13B437225301780035471F /* BSAudioPlayerObserver.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSAudioPlayerObserver.m; sourceTree = "<group>"; };
-		3C13B438225301780035471F /* BSAudioHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSAudioHeader.h; sourceTree = "<group>"; };
-		3C13B439225301780035471F /* BSAudioProgressData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSAudioProgressData.m; sourceTree = "<group>"; };
+		3C13B45B225338340035471F /* BSAudioManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSAudioManager.h; sourceTree = "<group>"; };
+		3C13B45D225338340035471F /* DOUEAGL1View.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DOUEAGL1View.h; sourceTree = "<group>"; };
+		3C13B45E225338340035471F /* DOUAudioFileProvider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DOUAudioFileProvider.m; sourceTree = "<group>"; };
+		3C13B45F225338340035471F /* DOUAudioStreamer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DOUAudioStreamer.h; sourceTree = "<group>"; };
+		3C13B460225338340035471F /* DOUSimpleHTTPRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DOUSimpleHTTPRequest.h; sourceTree = "<group>"; };
+		3C13B461225338340035471F /* DOUAudioDecoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DOUAudioDecoder.h; sourceTree = "<group>"; };
+		3C13B462225338340035471F /* DOUAudioStreamer+Options.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "DOUAudioStreamer+Options.m"; sourceTree = "<group>"; };
+		3C13B463225338340035471F /* DOUAudioLPCM.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DOUAudioLPCM.h; sourceTree = "<group>"; };
+		3C13B464225338340035471F /* DOUEAGLView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DOUEAGLView.h; sourceTree = "<group>"; };
+		3C13B465225338340035471F /* DOUAudioAnalyzer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DOUAudioAnalyzer.m; sourceTree = "<group>"; };
+		3C13B466225338340035471F /* DOUAudioSpatialAnalyzer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DOUAudioSpatialAnalyzer.h; sourceTree = "<group>"; };
+		3C13B467225338340035471F /* DOUAudioEventLoop.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DOUAudioEventLoop.h; sourceTree = "<group>"; };
+		3C13B468225338340035471F /* DOUAudioPlaybackItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DOUAudioPlaybackItem.h; sourceTree = "<group>"; };
+		3C13B469225338340035471F /* DOUAudioRenderer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DOUAudioRenderer.m; sourceTree = "<group>"; };
+		3C13B46A225338340035471F /* DOUAudioAnalyzer+Default.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "DOUAudioAnalyzer+Default.m"; sourceTree = "<group>"; };
+		3C13B46B225338340035471F /* DOUAudioFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DOUAudioFile.h; sourceTree = "<group>"; };
+		3C13B46C225338340035471F /* NSData+DOUMappedFile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+DOUMappedFile.m"; sourceTree = "<group>"; };
+		3C13B46D225338340035471F /* DOUMPMediaLibraryAssetLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DOUMPMediaLibraryAssetLoader.h; sourceTree = "<group>"; };
+		3C13B46E225338340035471F /* DOUAudioFilePreprocessor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DOUAudioFilePreprocessor.m; sourceTree = "<group>"; };
+		3C13B46F225338340035471F /* DOUAudioAnalyzer_Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DOUAudioAnalyzer_Private.h; sourceTree = "<group>"; };
+		3C13B470225338340035471F /* DOUAudioVisualizer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DOUAudioVisualizer.m; sourceTree = "<group>"; };
+		3C13B471225338340035471F /* DOUAudioFrequencyAnalyzer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DOUAudioFrequencyAnalyzer.h; sourceTree = "<group>"; };
+		3C13B472225338340035471F /* DOUEAGLView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DOUEAGLView.m; sourceTree = "<group>"; };
+		3C13B473225338340035471F /* DOUAudioAnalyzer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DOUAudioAnalyzer.h; sourceTree = "<group>"; };
+		3C13B474225338340035471F /* DOUAudioLPCM.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DOUAudioLPCM.m; sourceTree = "<group>"; };
+		3C13B475225338340035471F /* DOUAudioStreamer+Options.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "DOUAudioStreamer+Options.h"; sourceTree = "<group>"; };
+		3C13B476225338340035471F /* DOUAudioStreamer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DOUAudioStreamer.m; sourceTree = "<group>"; };
+		3C13B477225338340035471F /* DOUAudioDecoder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DOUAudioDecoder.m; sourceTree = "<group>"; };
+		3C13B478225338340035471F /* DOUSimpleHTTPRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DOUSimpleHTTPRequest.m; sourceTree = "<group>"; };
+		3C13B479225338340035471F /* DOUAudioFileProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DOUAudioFileProvider.h; sourceTree = "<group>"; };
+		3C13B47A225338340035471F /* DOUEAGL1View.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DOUEAGL1View.m; sourceTree = "<group>"; };
+		3C13B47B225338340035471F /* DOUAudioAnalyzer+Default.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "DOUAudioAnalyzer+Default.h"; sourceTree = "<group>"; };
+		3C13B47C225338340035471F /* DOUAudioPlaybackItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DOUAudioPlaybackItem.m; sourceTree = "<group>"; };
+		3C13B47D225338340035471F /* DOUAudioRenderer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DOUAudioRenderer.h; sourceTree = "<group>"; };
+		3C13B47E225338340035471F /* DOUAudioEventLoop.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DOUAudioEventLoop.m; sourceTree = "<group>"; };
+		3C13B47F225338340035471F /* DOUAudioSpatialAnalyzer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DOUAudioSpatialAnalyzer.m; sourceTree = "<group>"; };
+		3C13B480225338340035471F /* DOUAudioStreamer_Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DOUAudioStreamer_Private.h; sourceTree = "<group>"; };
+		3C13B481225338340035471F /* DOUAudioFrequencyAnalyzer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DOUAudioFrequencyAnalyzer.m; sourceTree = "<group>"; };
+		3C13B482225338340035471F /* DOUAudioVisualizer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DOUAudioVisualizer.h; sourceTree = "<group>"; };
+		3C13B483225338340035471F /* DOUAudioFilePreprocessor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DOUAudioFilePreprocessor.h; sourceTree = "<group>"; };
+		3C13B484225338340035471F /* DOUMPMediaLibraryAssetLoader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DOUMPMediaLibraryAssetLoader.m; sourceTree = "<group>"; };
+		3C13B485225338340035471F /* NSData+DOUMappedFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+DOUMappedFile.h"; sourceTree = "<group>"; };
+		3C13B486225338340035471F /* DOUAudioBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DOUAudioBase.h; sourceTree = "<group>"; };
+		3C13B488225338340035471F /* BSAudioPlayerHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSAudioPlayerHelper.h; sourceTree = "<group>"; };
+		3C13B489225338340035471F /* BSAudioItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSAudioItem.h; sourceTree = "<group>"; };
+		3C13B48A225338340035471F /* BSAudioPlayList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSAudioPlayList.h; sourceTree = "<group>"; };
+		3C13B48B225338340035471F /* BSAudioPlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSAudioPlayer.m; sourceTree = "<group>"; };
+		3C13B48C225338340035471F /* BSAudioPlayModelManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSAudioPlayModelManager.m; sourceTree = "<group>"; };
+		3C13B48D225338340035471F /* NSError+BSAudioPlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSError+BSAudioPlayer.m"; sourceTree = "<group>"; };
+		3C13B48E225338340035471F /* BSCircleAudioPlayModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSCircleAudioPlayModel.m; sourceTree = "<group>"; };
+		3C13B48F225338340035471F /* BSAudioPlayerAgent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSAudioPlayerAgent.h; sourceTree = "<group>"; };
+		3C13B490225338340035471F /* BSMusicModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSMusicModel.m; sourceTree = "<group>"; };
+		3C13B491225338340035471F /* BSOrderAudioPlayModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSOrderAudioPlayModel.h; sourceTree = "<group>"; };
+		3C13B492225338340035471F /* BSAudioProgressData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSAudioProgressData.h; sourceTree = "<group>"; };
+		3C13B493225338340035471F /* BSAudioPlayerDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSAudioPlayerDefines.h; sourceTree = "<group>"; };
+		3C13B494225338340035471F /* BSAudioPlayerObserver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSAudioPlayerObserver.h; sourceTree = "<group>"; };
+		3C13B495225338340035471F /* BSAudioPlayModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSAudioPlayModel.m; sourceTree = "<group>"; };
+		3C13B496225338340035471F /* BSAudioItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSAudioItem.m; sourceTree = "<group>"; };
+		3C13B497225338340035471F /* BSAudioPlayerHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSAudioPlayerHelper.m; sourceTree = "<group>"; };
+		3C13B498225338340035471F /* BSAudioPlayModelManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSAudioPlayModelManager.h; sourceTree = "<group>"; };
+		3C13B499225338340035471F /* BSAudioPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSAudioPlayer.h; sourceTree = "<group>"; };
+		3C13B49A225338340035471F /* BSAudioPlayList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSAudioPlayList.m; sourceTree = "<group>"; };
+		3C13B49B225338340035471F /* BSOrderAudioPlayModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSOrderAudioPlayModel.m; sourceTree = "<group>"; };
+		3C13B49C225338340035471F /* BSMusicModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSMusicModel.h; sourceTree = "<group>"; };
+		3C13B49D225338340035471F /* BSAudioPlayerAgent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSAudioPlayerAgent.m; sourceTree = "<group>"; };
+		3C13B49E225338340035471F /* BSCircleAudioPlayModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSCircleAudioPlayModel.h; sourceTree = "<group>"; };
+		3C13B49F225338340035471F /* NSError+BSAudioPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSError+BSAudioPlayer.h"; sourceTree = "<group>"; };
+		3C13B4A0225338340035471F /* BSAudioPlayModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSAudioPlayModel.h; sourceTree = "<group>"; };
+		3C13B4A1225338340035471F /* BSAudioPlayerObserver.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSAudioPlayerObserver.m; sourceTree = "<group>"; };
+		3C13B4A2225338340035471F /* BSAudioHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSAudioHeader.h; sourceTree = "<group>"; };
+		3C13B4A3225338340035471F /* BSAudioProgressData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSAudioProgressData.m; sourceTree = "<group>"; };
 		3CFCC44A224F097D00CA02EB /* DouAudioStreamDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DouAudioStreamDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3CFCC44D224F097D00CA02EB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		3CFCC44E224F097D00CA02EB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -195,96 +195,96 @@
 			path = Pods;
 			sourceTree = "<group>";
 		};
-		3C13B3F0225301780035471F /* BSAudioManager */ = {
+		3C13B45A225338340035471F /* BSAudioManager */ = {
 			isa = PBXGroup;
 			children = (
-				3C13B41C225301780035471F /* BSAudioManager.h */,
-				3C13B3F1225301780035471F /* DOUAudioStream */,
-				3C13B41D225301780035471F /* BSAudioManager */,
+				3C13B45B225338340035471F /* BSAudioManager.h */,
+				3C13B45C225338340035471F /* DOUAudioStream */,
+				3C13B487225338340035471F /* BSAudioManager */,
 			);
 			path = BSAudioManager;
 			sourceTree = "<group>";
 		};
-		3C13B3F1225301780035471F /* DOUAudioStream */ = {
+		3C13B45C225338340035471F /* DOUAudioStream */ = {
 			isa = PBXGroup;
 			children = (
-				3C13B3F2225301780035471F /* DOUEAGL1View.h */,
-				3C13B3F3225301780035471F /* DOUAudioFileProvider.m */,
-				3C13B3F4225301780035471F /* DOUAudioStreamer.h */,
-				3C13B3F5225301780035471F /* DOUSimpleHTTPRequest.h */,
-				3C13B3F6225301780035471F /* DOUAudioDecoder.h */,
-				3C13B3F7225301780035471F /* DOUAudioStreamer+Options.m */,
-				3C13B3F8225301780035471F /* DOUAudioLPCM.h */,
-				3C13B3F9225301780035471F /* DOUEAGLView.h */,
-				3C13B3FA225301780035471F /* DOUAudioAnalyzer.m */,
-				3C13B3FB225301780035471F /* DOUAudioSpatialAnalyzer.h */,
-				3C13B3FC225301780035471F /* DOUAudioEventLoop.h */,
-				3C13B3FD225301780035471F /* DOUAudioPlaybackItem.h */,
-				3C13B3FE225301780035471F /* DOUAudioRenderer.m */,
-				3C13B3FF225301780035471F /* DOUAudioAnalyzer+Default.m */,
-				3C13B400225301780035471F /* DOUAudioFile.h */,
-				3C13B401225301780035471F /* NSData+DOUMappedFile.m */,
-				3C13B402225301780035471F /* DOUMPMediaLibraryAssetLoader.h */,
-				3C13B403225301780035471F /* DOUAudioFilePreprocessor.m */,
-				3C13B404225301780035471F /* DOUAudioAnalyzer_Private.h */,
-				3C13B405225301780035471F /* DOUAudioVisualizer.m */,
-				3C13B406225301780035471F /* DOUAudioFrequencyAnalyzer.h */,
-				3C13B407225301780035471F /* DOUEAGLView.m */,
-				3C13B408225301780035471F /* DOUAudioAnalyzer.h */,
-				3C13B409225301780035471F /* DOUAudioLPCM.m */,
-				3C13B40A225301780035471F /* DOUAudioStreamer+Options.h */,
-				3C13B40B225301780035471F /* DOUAudioStreamer.m */,
-				3C13B40C225301780035471F /* DOUAudioDecoder.m */,
-				3C13B40D225301780035471F /* DOUSimpleHTTPRequest.m */,
-				3C13B40E225301780035471F /* DOUAudioFileProvider.h */,
-				3C13B40F225301780035471F /* DOUEAGL1View.m */,
-				3C13B410225301780035471F /* DOUAudioAnalyzer+Default.h */,
-				3C13B411225301780035471F /* DOUAudioPlaybackItem.m */,
-				3C13B412225301780035471F /* DOUAudioRenderer.h */,
-				3C13B413225301780035471F /* DOUAudioEventLoop.m */,
-				3C13B414225301780035471F /* DOUAudioSpatialAnalyzer.m */,
-				3C13B415225301780035471F /* DOUAudioStreamer_Private.h */,
-				3C13B416225301780035471F /* DOUAudioFrequencyAnalyzer.m */,
-				3C13B417225301780035471F /* DOUAudioVisualizer.h */,
-				3C13B418225301780035471F /* DOUAudioFilePreprocessor.h */,
-				3C13B419225301780035471F /* DOUMPMediaLibraryAssetLoader.m */,
-				3C13B41A225301780035471F /* NSData+DOUMappedFile.h */,
-				3C13B41B225301780035471F /* DOUAudioBase.h */,
+				3C13B45D225338340035471F /* DOUEAGL1View.h */,
+				3C13B45E225338340035471F /* DOUAudioFileProvider.m */,
+				3C13B45F225338340035471F /* DOUAudioStreamer.h */,
+				3C13B460225338340035471F /* DOUSimpleHTTPRequest.h */,
+				3C13B461225338340035471F /* DOUAudioDecoder.h */,
+				3C13B462225338340035471F /* DOUAudioStreamer+Options.m */,
+				3C13B463225338340035471F /* DOUAudioLPCM.h */,
+				3C13B464225338340035471F /* DOUEAGLView.h */,
+				3C13B465225338340035471F /* DOUAudioAnalyzer.m */,
+				3C13B466225338340035471F /* DOUAudioSpatialAnalyzer.h */,
+				3C13B467225338340035471F /* DOUAudioEventLoop.h */,
+				3C13B468225338340035471F /* DOUAudioPlaybackItem.h */,
+				3C13B469225338340035471F /* DOUAudioRenderer.m */,
+				3C13B46A225338340035471F /* DOUAudioAnalyzer+Default.m */,
+				3C13B46B225338340035471F /* DOUAudioFile.h */,
+				3C13B46C225338340035471F /* NSData+DOUMappedFile.m */,
+				3C13B46D225338340035471F /* DOUMPMediaLibraryAssetLoader.h */,
+				3C13B46E225338340035471F /* DOUAudioFilePreprocessor.m */,
+				3C13B46F225338340035471F /* DOUAudioAnalyzer_Private.h */,
+				3C13B470225338340035471F /* DOUAudioVisualizer.m */,
+				3C13B471225338340035471F /* DOUAudioFrequencyAnalyzer.h */,
+				3C13B472225338340035471F /* DOUEAGLView.m */,
+				3C13B473225338340035471F /* DOUAudioAnalyzer.h */,
+				3C13B474225338340035471F /* DOUAudioLPCM.m */,
+				3C13B475225338340035471F /* DOUAudioStreamer+Options.h */,
+				3C13B476225338340035471F /* DOUAudioStreamer.m */,
+				3C13B477225338340035471F /* DOUAudioDecoder.m */,
+				3C13B478225338340035471F /* DOUSimpleHTTPRequest.m */,
+				3C13B479225338340035471F /* DOUAudioFileProvider.h */,
+				3C13B47A225338340035471F /* DOUEAGL1View.m */,
+				3C13B47B225338340035471F /* DOUAudioAnalyzer+Default.h */,
+				3C13B47C225338340035471F /* DOUAudioPlaybackItem.m */,
+				3C13B47D225338340035471F /* DOUAudioRenderer.h */,
+				3C13B47E225338340035471F /* DOUAudioEventLoop.m */,
+				3C13B47F225338340035471F /* DOUAudioSpatialAnalyzer.m */,
+				3C13B480225338340035471F /* DOUAudioStreamer_Private.h */,
+				3C13B481225338340035471F /* DOUAudioFrequencyAnalyzer.m */,
+				3C13B482225338340035471F /* DOUAudioVisualizer.h */,
+				3C13B483225338340035471F /* DOUAudioFilePreprocessor.h */,
+				3C13B484225338340035471F /* DOUMPMediaLibraryAssetLoader.m */,
+				3C13B485225338340035471F /* NSData+DOUMappedFile.h */,
+				3C13B486225338340035471F /* DOUAudioBase.h */,
 			);
 			path = DOUAudioStream;
 			sourceTree = "<group>";
 		};
-		3C13B41D225301780035471F /* BSAudioManager */ = {
+		3C13B487225338340035471F /* BSAudioManager */ = {
 			isa = PBXGroup;
 			children = (
-				3C13B438225301780035471F /* BSAudioHeader.h */,
-				3C13B41F225301780035471F /* BSAudioItem.h */,
-				3C13B42C225301780035471F /* BSAudioItem.m */,
-				3C13B42F225301780035471F /* BSAudioPlayer.h */,
-				3C13B421225301780035471F /* BSAudioPlayer.m */,
-				3C13B425225301780035471F /* BSAudioPlayerAgent.h */,
-				3C13B433225301780035471F /* BSAudioPlayerAgent.m */,
-				3C13B429225301780035471F /* BSAudioPlayerDefines.h */,
-				3C13B41E225301780035471F /* BSAudioPlayerHelper.h */,
-				3C13B42D225301780035471F /* BSAudioPlayerHelper.m */,
-				3C13B42A225301780035471F /* BSAudioPlayerObserver.h */,
-				3C13B437225301780035471F /* BSAudioPlayerObserver.m */,
-				3C13B420225301780035471F /* BSAudioPlayList.h */,
-				3C13B430225301780035471F /* BSAudioPlayList.m */,
-				3C13B436225301780035471F /* BSAudioPlayModel.h */,
-				3C13B42B225301780035471F /* BSAudioPlayModel.m */,
-				3C13B42E225301780035471F /* BSAudioPlayModelManager.h */,
-				3C13B422225301780035471F /* BSAudioPlayModelManager.m */,
-				3C13B428225301780035471F /* BSAudioProgressData.h */,
-				3C13B439225301780035471F /* BSAudioProgressData.m */,
-				3C13B434225301780035471F /* BSCircleAudioPlayModel.h */,
-				3C13B424225301780035471F /* BSCircleAudioPlayModel.m */,
-				3C13B432225301780035471F /* BSMusicModel.h */,
-				3C13B426225301780035471F /* BSMusicModel.m */,
-				3C13B427225301780035471F /* BSOrderAudioPlayModel.h */,
-				3C13B431225301780035471F /* BSOrderAudioPlayModel.m */,
-				3C13B435225301780035471F /* NSError+BSAudioPlayer.h */,
-				3C13B423225301780035471F /* NSError+BSAudioPlayer.m */,
+				3C13B488225338340035471F /* BSAudioPlayerHelper.h */,
+				3C13B489225338340035471F /* BSAudioItem.h */,
+				3C13B48A225338340035471F /* BSAudioPlayList.h */,
+				3C13B48B225338340035471F /* BSAudioPlayer.m */,
+				3C13B48C225338340035471F /* BSAudioPlayModelManager.m */,
+				3C13B48D225338340035471F /* NSError+BSAudioPlayer.m */,
+				3C13B48E225338340035471F /* BSCircleAudioPlayModel.m */,
+				3C13B48F225338340035471F /* BSAudioPlayerAgent.h */,
+				3C13B490225338340035471F /* BSMusicModel.m */,
+				3C13B491225338340035471F /* BSOrderAudioPlayModel.h */,
+				3C13B492225338340035471F /* BSAudioProgressData.h */,
+				3C13B493225338340035471F /* BSAudioPlayerDefines.h */,
+				3C13B494225338340035471F /* BSAudioPlayerObserver.h */,
+				3C13B495225338340035471F /* BSAudioPlayModel.m */,
+				3C13B496225338340035471F /* BSAudioItem.m */,
+				3C13B497225338340035471F /* BSAudioPlayerHelper.m */,
+				3C13B498225338340035471F /* BSAudioPlayModelManager.h */,
+				3C13B499225338340035471F /* BSAudioPlayer.h */,
+				3C13B49A225338340035471F /* BSAudioPlayList.m */,
+				3C13B49B225338340035471F /* BSOrderAudioPlayModel.m */,
+				3C13B49C225338340035471F /* BSMusicModel.h */,
+				3C13B49D225338340035471F /* BSAudioPlayerAgent.m */,
+				3C13B49E225338340035471F /* BSCircleAudioPlayModel.h */,
+				3C13B49F225338340035471F /* NSError+BSAudioPlayer.h */,
+				3C13B4A0225338340035471F /* BSAudioPlayModel.h */,
+				3C13B4A1225338340035471F /* BSAudioPlayerObserver.m */,
+				3C13B4A2225338340035471F /* BSAudioHeader.h */,
+				3C13B4A3225338340035471F /* BSAudioProgressData.m */,
 			);
 			path = BSAudioManager;
 			sourceTree = "<group>";
@@ -292,7 +292,7 @@
 		3CFCC441224F097D00CA02EB = {
 			isa = PBXGroup;
 			children = (
-				3C13B3F0225301780035471F /* BSAudioManager */,
+				3C13B45A225338340035471F /* BSAudioManager */,
 				3CFCC44C224F097D00CA02EB /* DouAudioStreamDemo */,
 				3CFCC465224F098100CA02EB /* DouAudioStreamDemoTests */,
 				3CFCC470224F098100CA02EB /* DouAudioStreamDemoUITests */,
@@ -510,41 +510,41 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3C13B440225301790035471F /* DOUAudioFilePreprocessor.m in Sources */,
+				3C13B4AA225338340035471F /* DOUAudioFilePreprocessor.m in Sources */,
 				3CFCC452224F097D00CA02EB /* ViewController.m in Sources */,
-				3C13B43B225301790035471F /* DOUAudioStreamer+Options.m in Sources */,
-				3C13B450225301790035471F /* BSCircleAudioPlayModel.m in Sources */,
-				3C13B43D225301790035471F /* DOUAudioRenderer.m in Sources */,
-				3C13B442225301790035471F /* DOUEAGLView.m in Sources */,
-				3C13B449225301790035471F /* DOUAudioEventLoop.m in Sources */,
-				3C13B44B225301790035471F /* DOUAudioFrequencyAnalyzer.m in Sources */,
-				3C13B457225301790035471F /* BSAudioPlayerAgent.m in Sources */,
-				3C13B451225301790035471F /* BSMusicModel.m in Sources */,
-				3C13B448225301790035471F /* DOUAudioPlaybackItem.m in Sources */,
+				3C13B4A5225338340035471F /* DOUAudioStreamer+Options.m in Sources */,
+				3C13B4BA225338340035471F /* BSCircleAudioPlayModel.m in Sources */,
+				3C13B4A7225338340035471F /* DOUAudioRenderer.m in Sources */,
+				3C13B4AC225338340035471F /* DOUEAGLView.m in Sources */,
+				3C13B4B3225338340035471F /* DOUAudioEventLoop.m in Sources */,
+				3C13B4B5225338340035471F /* DOUAudioFrequencyAnalyzer.m in Sources */,
+				3C13B4C1225338340035471F /* BSAudioPlayerAgent.m in Sources */,
+				3C13B4BB225338340035471F /* BSMusicModel.m in Sources */,
+				3C13B4B2225338340035471F /* DOUAudioPlaybackItem.m in Sources */,
 				3CFCC45D224F098100CA02EB /* main.m in Sources */,
-				3C13B44F225301790035471F /* NSError+BSAudioPlayer.m in Sources */,
-				3C13B453225301790035471F /* BSAudioItem.m in Sources */,
-				3C13B43A225301790035471F /* DOUAudioFileProvider.m in Sources */,
-				3C13B44C225301790035471F /* DOUMPMediaLibraryAssetLoader.m in Sources */,
-				3C13B447225301790035471F /* DOUEAGL1View.m in Sources */,
-				3C13B43E225301790035471F /* DOUAudioAnalyzer+Default.m in Sources */,
-				3C13B458225301790035471F /* BSAudioPlayerObserver.m in Sources */,
-				3C13B44E225301790035471F /* BSAudioPlayModelManager.m in Sources */,
-				3C13B444225301790035471F /* DOUAudioStreamer.m in Sources */,
-				3C13B43F225301790035471F /* NSData+DOUMappedFile.m in Sources */,
-				3C13B443225301790035471F /* DOUAudioLPCM.m in Sources */,
+				3C13B4B9225338340035471F /* NSError+BSAudioPlayer.m in Sources */,
+				3C13B4BD225338340035471F /* BSAudioItem.m in Sources */,
+				3C13B4A4225338340035471F /* DOUAudioFileProvider.m in Sources */,
+				3C13B4B6225338340035471F /* DOUMPMediaLibraryAssetLoader.m in Sources */,
+				3C13B4B1225338340035471F /* DOUEAGL1View.m in Sources */,
+				3C13B4A8225338340035471F /* DOUAudioAnalyzer+Default.m in Sources */,
+				3C13B4C2225338340035471F /* BSAudioPlayerObserver.m in Sources */,
+				3C13B4B8225338340035471F /* BSAudioPlayModelManager.m in Sources */,
+				3C13B4AE225338340035471F /* DOUAudioStreamer.m in Sources */,
+				3C13B4A9225338340035471F /* NSData+DOUMappedFile.m in Sources */,
+				3C13B4AD225338340035471F /* DOUAudioLPCM.m in Sources */,
 				3CFCC44F224F097D00CA02EB /* AppDelegate.m in Sources */,
-				3C13B446225301790035471F /* DOUSimpleHTTPRequest.m in Sources */,
-				3C13B44D225301790035471F /* BSAudioPlayer.m in Sources */,
-				3C13B43C225301790035471F /* DOUAudioAnalyzer.m in Sources */,
-				3C13B455225301790035471F /* BSAudioPlayList.m in Sources */,
-				3C13B441225301790035471F /* DOUAudioVisualizer.m in Sources */,
-				3C13B44A225301790035471F /* DOUAudioSpatialAnalyzer.m in Sources */,
-				3C13B456225301790035471F /* BSOrderAudioPlayModel.m in Sources */,
-				3C13B459225301790035471F /* BSAudioProgressData.m in Sources */,
-				3C13B445225301790035471F /* DOUAudioDecoder.m in Sources */,
-				3C13B454225301790035471F /* BSAudioPlayerHelper.m in Sources */,
-				3C13B452225301790035471F /* BSAudioPlayModel.m in Sources */,
+				3C13B4B0225338340035471F /* DOUSimpleHTTPRequest.m in Sources */,
+				3C13B4B7225338340035471F /* BSAudioPlayer.m in Sources */,
+				3C13B4A6225338340035471F /* DOUAudioAnalyzer.m in Sources */,
+				3C13B4BF225338340035471F /* BSAudioPlayList.m in Sources */,
+				3C13B4AB225338340035471F /* DOUAudioVisualizer.m in Sources */,
+				3C13B4B4225338340035471F /* DOUAudioSpatialAnalyzer.m in Sources */,
+				3C13B4C0225338340035471F /* BSOrderAudioPlayModel.m in Sources */,
+				3C13B4C3225338340035471F /* BSAudioProgressData.m in Sources */,
+				3C13B4AF225338340035471F /* DOUAudioDecoder.m in Sources */,
+				3C13B4BE225338340035471F /* BSAudioPlayerHelper.m in Sources */,
+				3C13B4BC225338340035471F /* BSAudioPlayModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

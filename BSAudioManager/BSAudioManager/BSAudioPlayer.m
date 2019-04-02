@@ -240,8 +240,8 @@ static void *kBufferingRatioKVOKey = &kBufferingRatioKVOKey;
                 waitUntilDone:NO];
     } else if (context == kDurationKVOKey) {
         dispatch_async(dispatch_get_main_queue(), ^{
-            if (_getDurationBlock) {
-                _getDurationBlock(_audioStreamer.duration);
+            if (self->_getDurationBlock) {
+                self->_getDurationBlock(self->_audioStreamer.duration);
             }
         });
     }
